@@ -10,7 +10,7 @@ class Discover extends Component {
  
  
   initViz() {
-    const vizUrl = 'https://public.tableau.com/views/discover_16663954547440/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link';
+    const vizUrl = 'https://public.tableau.com/views/discover_16663954547440/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link';
     const vizContainer = this.vizContainer;
     let viz = new window.tableau.Viz(vizContainer, vizUrl)
   }
