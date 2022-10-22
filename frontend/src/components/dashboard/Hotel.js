@@ -1,6 +1,7 @@
 import { Link, Typography } from '@mui/material';
 import React, { Component } from 'react';
 import tableau from 'tableau-api';
+import NavHeader from '../header/NavHeader';
  
  
 class Hotel extends Component {
@@ -10,7 +11,7 @@ class Hotel extends Component {
  
  
   initViz() {
-    const vizUrl = 'https://public.tableau.com/views/Hotel_16652553347770/Dashboard2?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link';
+    const vizUrl = 'https://public.tableau.com/views/Hotel_16652553347770/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link';
     const vizContainer = this.vizContainer;
     let viz = new window.tableau.Viz(vizContainer, vizUrl)
   }
@@ -19,7 +20,8 @@ class Hotel extends Component {
   render() {
     return (
     <>
-        <div style={{width:'100%', height:"800px"}} ref={(div) => { this.vizContainer = div }}>
+    <NavHeader page={"hotel"}/>
+        <div style={{width:'100%', height:"770px"}} ref={(div) => { this.vizContainer = div }}>
         </div>
         <Typography style={{marginTop:"20px"}}>
             Additional information: 

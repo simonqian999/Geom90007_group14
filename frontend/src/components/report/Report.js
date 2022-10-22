@@ -11,7 +11,7 @@ import modelVisual from "../../graph/model visual.png"
 
 export const ReviewSideBlank = styled("div")({
     flex: "0 1 auto",
-    minWidth: 200,
+    minWidth: 400,
     background: "lightblue",
     display: "flex",
     justifyContent: "center",
