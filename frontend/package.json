@@ -2,10 +2,9 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "engines": {
-    "node": "^14.17.4",
-    "npm": "^7.21.0"
+    "node": "~14.17.4",
+    "npm": "~7.21.0"
   },
   "dependencies": {
     "@emotion/react": "^11.10.0",
@@ -28,8 +27,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -49,9 +47,8 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {},
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+
 }

@@ -50,7 +50,7 @@ export default function NavHeader({page}) {
             <A style={{textDecoration : decorater("home")}} href="/">Home</A>
         </AContainer>
         <AContainer>
-            <A style={{textDecoration : decorater("discover")}} href="/discover">Discover</A>
+            <A style={{textDecoration : decorater("discover")}} href="/attractions">Attractions</A>
         </AContainer>
         <AContainer>
             <A style={{textDecoration : decorater("hotel")}} href="/hotel">Hotel</A>
