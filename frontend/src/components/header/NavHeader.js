@@ -22,6 +22,16 @@ export const AContainer = styled("div") ({
     display: "flex",
     justifyContent: "center",
 });
+export const LogoContainer = styled("div") ({
+    flex: "0 1 auto",
+    margin: "5px",
+    fontWeight: "bold",
+    justifyContent: "center",
+    display: "flex",
+    fontSize: "50px",
+    color: "black",
+
+});
 
 export const A = styled("a") ({
     fontSize: "30px",
@@ -45,7 +55,11 @@ export default function NavHeader({page}) {
     }
     return (
 
+    // header that contain 4 sections and above is the name of website
+    <>
+<LogoContainer sx={{ border: 3 }}>MELPLORER</LogoContainer>
     <HeaderContainer>
+    
         <AContainer>
             <A style={{textDecoration : decorater("home")}} href="/">Home</A>
         </AContainer>
@@ -61,6 +75,6 @@ export default function NavHeader({page}) {
 
 
     </HeaderContainer>
-
+    </>
   );
 }

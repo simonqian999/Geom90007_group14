@@ -16,7 +16,7 @@ class Hotel extends Component {
     let viz = new window.tableau.Viz(vizContainer, vizUrl)
   }
  
- 
+  //render the hotel tableau and the header
   render() {
     return (
     <>

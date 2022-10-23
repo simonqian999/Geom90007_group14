@@ -15,7 +15,7 @@ class Discover extends Component {
     let viz = new window.tableau.Viz(vizContainer, vizUrl)
   }
  
- 
+ //render the attraction tableau and the header
   render() {
     return (
       <>

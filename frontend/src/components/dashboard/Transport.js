@@ -15,7 +15,7 @@ class Transport extends Component {
     let viz = new window.tableau.Viz(vizContainer, vizUrl)
   }
  
- 
+   //render the tranportation tableau and the header
   render() {
     return (
       <>

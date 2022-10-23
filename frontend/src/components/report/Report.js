@@ -17,6 +17,7 @@ export const ReviewSideBlank = styled("div")({
     justifyContent: "center",
 });
 
+// contain text and png graph which is plot by r
 export default function Report() {
 
     return(
