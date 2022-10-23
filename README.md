@@ -35,4 +35,5 @@ and you will be allocated in http://localhost:3000
 | IV_analyse_final.Rmd      | png graph made in page /report (direct from page /hotel)    |
 | hotel.twbx      | tableau in page /hotel    |
 | hotel.xlsx      | self collected excel data for tableau in page /hotel    |
-| transportation.twbx      | /tansportation   |
+| transportation.twbx      | tableau in page /tansportation   |
+| folder Transportation      | data for tableau in page /tansportation   |
