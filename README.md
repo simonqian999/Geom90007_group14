@@ -24,3 +24,12 @@ npm start
 and you will be allocated in http://localhost:3000
 
 <img src="./frontend/src/graph/home.png">
+
+# File dictionary
+
+| data file name | website page shows              |
+| :---------- | :-------------------------- |
+| attraction.twbx      | /attractions |
+| IV_analyse_final.Rmd      | /report (direct from page /hotel)    |
+| hotel.twbx      | /hotel    |
+| transportation.twbx      | /tansportation   |
